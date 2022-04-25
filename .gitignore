@@ -3,3 +3,6 @@ __pycache__/
 *.xlsx
 *.pdf
 merged_xmls.txt
+/build
+/dist
+merged_pdf.txt

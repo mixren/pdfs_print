@@ -1,9 +1,11 @@
 
-TXT_FILE="merged_xmls.txt"
+TXT_NAME="merged"
+TXT_EXT = ".txt"
 
-def create_txt_for_list(lst: list)-> bool:
+def create_txt_for_list(lst: list, suffx: str)-> bool:
+    file = f"{TXT_NAME}_{suffx}{TXT_EXT}"
     try:
-        f=open(TXT_FILE, "a+")
+        f=open(file, "a+")
         for s in lst:
             f.write("\n"+s.rsplit(".",1)[0].rsplit("\\",1)[1])
         f.close()
