@@ -25,6 +25,7 @@
 
 
 
+source code: https://github.com/mixren/pdfs_print
 github: @mixren
 Version 1.0.0
 
